@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-subtraction-behavior-on-number-1---number-2,-and-when-number-2-is-cleared" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/aldy/Documents/x/xendit-qa-assessment/features/calculator.feature">
+            </property>
+        </properties>
+        <testcase name="Given Open chrome browser and start application" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-subtraction-behavior-on-number-1---number-2,-and-when-number-2-is-cleared" time="8.504862015">
+        </testcase>
+        <testcase name="When I press following button" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-subtraction-behavior-on-number-1---number-2,-and-when-number-2-is-cleared" time="0.005250537">
+        </testcase>
+        <testcase name="Then I should be able to see" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-subtraction-behavior-on-number-1---number-2,-and-when-number-2-is-cleared" time="5.714409588">
+        </testcase>
+    </testsuite>
+    <testsuite name="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-subtraction-behavior-on-number-1-is-cleared" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/aldy/Documents/x/xendit-qa-assessment/features/calculator.feature">
+            </property>
+        </properties>
+        <testcase name="Given Open chrome browser and start application" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-subtraction-behavior-on-number-1-is-cleared" time="5.949346588">
+        </testcase>
+        <testcase name="When I press following button" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-subtraction-behavior-on-number-1-is-cleared" time="0.001608993">
+        </testcase>
+        <testcase name="Then I should be able to see" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-subtraction-behavior-on-number-1-is-cleared" time="4.454280894">
+        </testcase>
+    </testsuite>
+    <testsuite name="test-online-calculator-scenarios-(division,-subtraction,-and-ce);check-minus-operation-with-0-result" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/aldy/Documents/x/xendit-qa-assessment/features/calculator.feature">
+            </property>
+        </properties>
+        <testcase name="Given Open chrome browser and start application" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);check-minus-operation-with-0-result" time="8.119182702">
+        </testcase>
+        <testcase name="When I press following button" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);check-minus-operation-with-0-result" time="0.000558244">
+        </testcase>
+        <testcase name="Then I should be able to see" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);check-minus-operation-with-0-result" time="4.336258003">
+        </testcase>
+    </testsuite>
+    <testsuite name="test-online-calculator-scenarios-(division,-subtraction,-and-ce);check-minus-operation-when-number---number-2-/-number-3-condition,-where-division-will-be-calculated-first" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/aldy/Documents/x/xendit-qa-assessment/features/calculator.feature">
+            </property>
+        </properties>
+        <testcase name="Given Open chrome browser and start application" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);check-minus-operation-when-number---number-2-/-number-3-condition,-where-division-will-be-calculated-first" time="5.972927368">
+        </testcase>
+        <testcase name="When I press following button" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);check-minus-operation-when-number---number-2-/-number-3-condition,-where-division-will-be-calculated-first" time="0.000603504">
+        </testcase>
+        <testcase name="Then I should be able to see" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);check-minus-operation-when-number---number-2-/-number-3-condition,-where-division-will-be-calculated-first" time="3.610475352">
+        </testcase>
+    </testsuite>
+    <testsuite name="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-subtraction-behavior-after-division-first-(number1-/-number2--)" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/aldy/Documents/x/xendit-qa-assessment/features/calculator.feature">
+            </property>
+        </properties>
+        <testcase name="Given Open chrome browser and start application" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-subtraction-behavior-after-division-first-(number1-/-number2--)" time="5.968935719">
+        </testcase>
+        <testcase name="When I press following button" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-subtraction-behavior-after-division-first-(number1-/-number2--)" time="0.000855028">
+        </testcase>
+        <testcase name="Then I should be able to see" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-subtraction-behavior-after-division-first-(number1-/-number2--)" time="3.176714173">
+        </testcase>
+    </testsuite>
+    <testsuite name="test-online-calculator-scenarios-(division,-subtraction,-and-ce);negative-test-when-number1---number2-/-number3,-and-number3-is-cleared" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/aldy/Documents/x/xendit-qa-assessment/features/calculator.feature">
+            </property>
+        </properties>
+        <testcase name="Given Open chrome browser and start application" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);negative-test-when-number1---number2-/-number3,-and-number3-is-cleared" time="6.431784511">
+        </testcase>
+        <testcase name="When I press following button" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);negative-test-when-number1---number2-/-number3,-and-number3-is-cleared" time="0.000696532">
+        </testcase>
+        <testcase name="Then I should be able to see" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);negative-test-when-number1---number2-/-number3,-and-number3-is-cleared" time="4.396895621">
+        </testcase>
+    </testsuite>
+    <testsuite name="test-online-calculator-scenarios-(division,-subtraction,-and-ce);negative-test-when-number1---number2-/-number3,-and-number3-is-cleared" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/aldy/Documents/x/xendit-qa-assessment/features/calculator.feature">
+            </property>
+        </properties>
+        <testcase name="Given Open chrome browser and start application" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);negative-test-when-number1---number2-/-number3,-and-number3-is-cleared" time="7.056370081">
+        </testcase>
+        <testcase name="When I press following button" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);negative-test-when-number1---number2-/-number3,-and-number3-is-cleared" time="0.000915974">
+        </testcase>
+        <testcase name="Then I should be able to see" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);negative-test-when-number1---number2-/-number3,-and-number3-is-cleared" time="4.937652653">
+        </testcase>
+    </testsuite>
+    <testsuite name="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-when-first-number-is-cleared" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/aldy/Documents/x/xendit-qa-assessment/features/calculator.feature">
+            </property>
+        </properties>
+        <testcase name="Given Open chrome browser and start application" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-when-first-number-is-cleared" time="5.825375831">
+        </testcase>
+        <testcase name="When I press following button" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-when-first-number-is-cleared" time="0.000592293">
+        </testcase>
+        <testcase name="Then I should be able to see" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-when-first-number-is-cleared" time="4.846396979">
+        </testcase>
+    </testsuite>
+    <testsuite name="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-after-subtraction-number1---number2-/-number3-/-number4" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/aldy/Documents/x/xendit-qa-assessment/features/calculator.feature">
+            </property>
+        </properties>
+        <testcase name="Given Open chrome browser and start application" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-after-subtraction-number1---number2-/-number3-/-number4" time="6.563990071">
+        </testcase>
+        <testcase name="When I press following button" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-after-subtraction-number1---number2-/-number3-/-number4" time="0.000799824">
+        </testcase>
+        <testcase name="Then I should be able to see" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-after-subtraction-number1---number2-/-number3-/-number4" time="5.314208621">
+        </testcase>
+    </testsuite>
+    <testsuite name="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-number1-:-number2-with-number2-cleared" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/aldy/Documents/x/xendit-qa-assessment/features/calculator.feature">
+            </property>
+        </properties>
+        <testcase name="Given Open chrome browser and start application" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-number1-:-number2-with-number2-cleared" time="11.841828656">
+        </testcase>
+        <testcase name="When I press following button" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-number1-:-number2-with-number2-cleared" time="0.001530855">
+        </testcase>
+        <testcase name="Then I should be able to see" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-number1-:-number2-with-number2-cleared" time="6.186648097">
+        </testcase>
+    </testsuite>
+    <testsuite name="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-number1-:-number2-with-number2-cleared" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/aldy/Documents/x/xendit-qa-assessment/features/calculator.feature">
+            </property>
+        </properties>
+        <testcase name="Given Open chrome browser and start application" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-number1-:-number2-with-number2-cleared" time="6.219713538">
+        </testcase>
+        <testcase name="When I press following button" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-number1-:-number2-with-number2-cleared" time="0.000614091">
+        </testcase>
+        <testcase name="Then I should be able to see" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-number1-:-number2-with-number2-cleared" time="4.66214016">
+        </testcase>
+    </testsuite>
+    <testsuite name="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-max-digit-and-subtraction" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/aldy/Documents/x/xendit-qa-assessment/features/calculator.feature">
+            </property>
+        </properties>
+        <testcase name="Given Open chrome browser and start application" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-max-digit-and-subtraction" time="8.670504734">
+        </testcase>
+        <testcase name="When I press following button" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-max-digit-and-subtraction" time="0.001025533">
+        </testcase>
+        <testcase name="Then I should be able to see" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-max-digit-and-subtraction" time="4.909153822">
+        </testcase>
+    </testsuite>
+    <testsuite name="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-max-digit-and-subtraction" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/aldy/Documents/x/xendit-qa-assessment/features/calculator.feature">
+            </property>
+        </properties>
+        <testcase name="Given Open chrome browser and start application" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-max-digit-and-subtraction" time="5.976431915">
+        </testcase>
+        <testcase name="When I press following button" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-max-digit-and-subtraction" time="0.001126276">
+        </testcase>
+        <testcase name="Then I should be able to see" classname="test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-max-digit-and-subtraction" time="4.593017728">
+        </testcase>
+    </testsuite>
+</testsuites>

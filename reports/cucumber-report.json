@@ -1,0 +1,1443 @@
+[
+  {
+    "elements": [
+      {
+        "id": "test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-subtraction-behavior-on-number-1---number-2,-and-when-number-2-is-cleared",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Test subtraction behavior on number 1 - number 2, and when number 2 is cleared",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Open chrome browser and start application",
+            "result": {
+              "status": "passed",
+              "duration": 8504862015
+            },
+            "line": 4,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:28"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "9"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "-"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "3"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "-"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "CE"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "10"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "-"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "name": "I press following button",
+            "result": {
+              "status": "passed",
+              "duration": 5250537
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:36"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "expected",
+                      "-4"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "I should be able to see",
+            "result": {
+              "status": "passed",
+              "duration": 5714409588
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 355326815
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-subtraction-behavior-on-number-1-is-cleared",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Test subtraction behavior on number 1 is cleared",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Open chrome browser and start application",
+            "result": {
+              "status": "passed",
+              "duration": 5949346588
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:28"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "9"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "CE"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "-"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "9"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "="
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "name": "I press following button",
+            "result": {
+              "status": "passed",
+              "duration": 1608993
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:36"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "expected",
+                      "-9"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "I should be able to see",
+            "result": {
+              "status": "passed",
+              "duration": 4454280894
+            },
+            "line": 27,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 328358309
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-online-calculator-scenarios-(division,-subtraction,-and-ce);check-minus-operation-with-0-result",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Check minus operation with 0 result",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Open chrome browser and start application",
+            "result": {
+              "status": "passed",
+              "duration": 8119182702
+            },
+            "line": 34,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:28"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "CE"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "CE"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "9"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "-"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "9"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "="
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "name": "I press following button",
+            "result": {
+              "status": "passed",
+              "duration": 558244
+            },
+            "line": 35,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:36"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "expected",
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "I should be able to see",
+            "result": {
+              "status": "passed",
+              "duration": 4336258003
+            },
+            "line": 43,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 317394938
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-online-calculator-scenarios-(division,-subtraction,-and-ce);check-minus-operation-when-number---number-2-/-number-3-condition,-where-division-will-be-calculated-first",
+        "keyword": "Scenario",
+        "line": 68,
+        "name": "Check minus operation when number - number 2 / number 3 condition, where division will be calculated first",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Open chrome browser and start application",
+            "result": {
+              "status": "passed",
+              "duration": 5972927368
+            },
+            "line": 50,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:28"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "9"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "-"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "3"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      ":"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "CE"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "CE"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "9"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "-"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "6"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "/"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "3"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "-"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "name": "I press following button",
+            "result": {
+              "status": "passed",
+              "duration": 603504
+            },
+            "line": 51,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:36"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "expected",
+                      "7"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "I should be able to see",
+            "result": {
+              "status": "passed",
+              "duration": 3610475352
+            },
+            "line": 64,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 333972288
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-subtraction-behavior-after-division-first-(number1-/-number2--)",
+        "keyword": "Scenario",
+        "line": 81,
+        "name": "Test subtraction behavior after division first (number1 / number2 -)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Open chrome browser and start application",
+            "result": {
+              "status": "passed",
+              "duration": 5968935719
+            },
+            "line": 71,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:28"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "8"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "/"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "4"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "-"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "name": "I press following button",
+            "result": {
+              "status": "passed",
+              "duration": 855028
+            },
+            "line": 72,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:36"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "expected",
+                      "2"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "I should be able to see",
+            "result": {
+              "status": "passed",
+              "duration": 3176714173
+            },
+            "line": 77,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 250839685
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-online-calculator-scenarios-(division,-subtraction,-and-ce);negative-test-when-number1---number2-/-number3,-and-number3-is-cleared",
+        "keyword": "Scenario",
+        "line": 97,
+        "name": "Negative test when number1 - number2 / number3, and number3 is cleared",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Open chrome browser and start application",
+            "result": {
+              "status": "passed",
+              "duration": 6431784511
+            },
+            "line": 84,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:28"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "9"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "-"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "6"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "/"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "3"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "CE"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "-"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "name": "I press following button",
+            "result": {
+              "status": "passed",
+              "duration": 696532
+            },
+            "line": 85,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:36"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "expected",
+                      "Error"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "I should be able to see",
+            "result": {
+              "status": "passed",
+              "duration": 4396895621
+            },
+            "line": 93,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 381952759
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-online-calculator-scenarios-(division,-subtraction,-and-ce);negative-test-when-number1---number2-/-number3,-and-number3-is-cleared",
+        "keyword": "Scenario",
+        "line": 113,
+        "name": "Negative test when number1 - number2 / number3, and number3 is cleared",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Open chrome browser and start application",
+            "result": {
+              "status": "passed",
+              "duration": 7056370081
+            },
+            "line": 100,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:28"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "12"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "/"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "3"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "/"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "CE"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "3"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "/"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "name": "I press following button",
+            "result": {
+              "status": "passed",
+              "duration": 915974
+            },
+            "line": 101,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:36"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "expected",
+                      "1.33333333"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "I should be able to see",
+            "result": {
+              "status": "passed",
+              "duration": 4937652653
+            },
+            "line": 109,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 488999846
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-when-first-number-is-cleared",
+        "keyword": "Scenario",
+        "line": 127,
+        "name": "Test division when first number is cleared",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Open chrome browser and start application",
+            "result": {
+              "status": "passed",
+              "duration": 5825375831
+            },
+            "line": 116,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:28"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "9"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "CE"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "/"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "9"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "="
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "name": "I press following button",
+            "result": {
+              "status": "passed",
+              "duration": 592293
+            },
+            "line": 117,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:36"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "expected",
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "I should be able to see",
+            "result": {
+              "status": "passed",
+              "duration": 4846396979
+            },
+            "line": 123,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 331792990
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-after-subtraction-number1---number2-/-number3-/-number4",
+        "keyword": "Scenario",
+        "line": 144,
+        "name": "Test division after subtraction number1 - number2 / number3 / number4",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Open chrome browser and start application",
+            "result": {
+              "status": "passed",
+              "duration": 6563990071
+            },
+            "line": 130,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:28"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "9"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "-"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "8"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "/"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "/"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "="
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "name": "I press following button",
+            "result": {
+              "status": "passed",
+              "duration": 799824
+            },
+            "line": 131,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:36"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "expected",
+                      "7"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "I should be able to see",
+            "result": {
+              "status": "passed",
+              "duration": 5314208621
+            },
+            "line": 140,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 349112062
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-number1-:-number2-with-number2-cleared",
+        "keyword": "Scenario",
+        "line": 162,
+        "name": "Test division number1 : number2 with number2 cleared",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Open chrome browser and start application",
+            "result": {
+              "status": "passed",
+              "duration": 11841828656
+            },
+            "line": 147,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:28"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "9"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "/"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "CE"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "CE"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "9"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "/"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "6"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "CE"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "-"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "name": "I press following button",
+            "result": {
+              "status": "passed",
+              "duration": 1530855
+            },
+            "line": 148,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:36"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "expected",
+                      "Error"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "I should be able to see",
+            "result": {
+              "status": "passed",
+              "duration": 6186648097
+            },
+            "line": 158,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 235541651
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-division-number1-:-number2-with-number2-cleared",
+        "keyword": "Scenario",
+        "line": 178,
+        "name": "Test division number1 : number2 with number2 cleared",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Open chrome browser and start application",
+            "result": {
+              "status": "passed",
+              "duration": 6219713538
+            },
+            "line": 165,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:28"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "9"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "-"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "8"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "/"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "CE"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "/"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "name": "I press following button",
+            "result": {
+              "status": "passed",
+              "duration": 614091
+            },
+            "line": 166,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:36"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "expected",
+                      "Error"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "I should be able to see",
+            "result": {
+              "status": "passed",
+              "duration": 4662140160
+            },
+            "line": 174,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 322071785
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-max-digit-and-subtraction",
+        "keyword": "Scenario",
+        "line": 191,
+        "name": "Test max digit and subtraction",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Open chrome browser and start application",
+            "result": {
+              "status": "passed",
+              "duration": 8670504734
+            },
+            "line": 181,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:28"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "9999999999"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "-"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "="
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "name": "I press following button",
+            "result": {
+              "status": "passed",
+              "duration": 1025533
+            },
+            "line": 182,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:36"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "expected",
+                      "999 999 998"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "I should be able to see",
+            "result": {
+              "status": "passed",
+              "duration": 4909153822
+            },
+            "line": 187,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 365433713
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-online-calculator-scenarios-(division,-subtraction,-and-ce);test-max-digit-and-subtraction",
+        "keyword": "Scenario",
+        "line": 204,
+        "name": "Test max digit and subtraction",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Open chrome browser and start application",
+            "result": {
+              "status": "passed",
+              "duration": 5976431915
+            },
+            "line": 194,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:28"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "9999999999"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "/"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "333"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "="
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "name": "I press following button",
+            "result": {
+              "status": "passed",
+              "duration": 1126276
+            },
+            "line": 195,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:36"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "expected",
+                      "3 003 003"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "I should be able to see",
+            "result": {
+              "status": "passed",
+              "duration": 4593017728
+            },
+            "line": 200,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/step-definitions/calculator-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 275336525
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/aldy/Documents/x/xendit-qa-assessment/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-online-calculator-scenarios-(division,-subtraction,-and-ce)",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Test online calculator scenarios (division, subtraction, and CE)",
+    "tags": [],
+    "uri": "/Users/aldy/Documents/x/xendit-qa-assessment/features/calculator.feature"
+  }
+]
